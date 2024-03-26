@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    android:orientation="vertical"
+    tools:context=".ThongtinungdungFragment">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="152dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Người sản xuất: "
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="-10dp"
+        android:text="  Đặng Trường Khánh "
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="15sp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Thành viên nhóm:"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#ff0000"-->
+<!--        android:textSize="15sp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="15sp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:text="   1. Đỗ Thanh Nhàn (Leader):"-->
+<!--        android:textColor="@color/colorBlack"-->
+
+<!--        android:textSize="15sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="7dp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Chân thành cảm ơn: "
+        android:textColor="#ff0000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="-10dp"
+        android:text="   TS. Nguyễn Thị Cẩm Ngoan"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="   GV. Trường đại học Công Nghiệp Hà Nội"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Địa chỉ:"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="   Trường đại học Công Nghiệp Hà Nội"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Thông tin tác giải"
+        android:textAllCaps="true"
+        android:textColor="#ff0000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="8dp"
+        android:text="   Là sinh viên"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.food">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.food.View.Admin.ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.food.dangsanphamActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.example.food.View.Bill.CartActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Bill.ContentBillAdMinActivity"
+            android:screenOrientation="fullSensor" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.example.food.View.HomeActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Bill.ContentProDuctActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Admin.SignInAdminActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.ContactActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Admin.ChartBillActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Bill.ContentBillActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.food.View.ThongKeDanhMucActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Admin.HomeAdminActivity"
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="com.example.food.View.Admin.BillADMiNActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Account.SignInActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.View.Account.SignUpActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name="com.example.food.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
